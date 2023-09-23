@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clone Netflix</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="app__background">
+    <div class="app__hero">
+      <header>
+        <div class="menu-logo">
+          <img src="img/logo 1.png" alt="logo">
+        </div>
+        <div class="menu">
+          <div class="menu-itens-left">
+            <ul>
+              <li>Início</li>
+              <li>Séries</li>
+              <li>Filmes</li>
+              <li>Em alta</li>
+              <li>Minha lista</li>
+            </ul>
+          </div>
+          <div class="menu-itens-right">
+            <ul>
+              <li><i class="fas fa-search"></i></li>
+              <li><i class="fas fa-bell"></i></li>
+              <li class="menu-user">
+                <img src="img/user 1.png" alt="Avatar usuário" />
+                <i class="fas fa-sort-down"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="poster">
+          <img class="poster-img" src="img/poster 1.png" alt="">
+          <span class="poster-subtitle">Em uma penitenciária de última geração, um detento participa de um experimento
+            com drogas que controlam as emoções para um gênio da indústria farmacêutica.</span>
+          <div class="botao">
+            <button type="submit" class="botao1"><i class="fas fa-play"></i>Assistir</button>
+            <button class="botao2"><i class="fas fa-thin fa-circle-info"></i>Mais informações</button>
+          </div>
+        </div>
+
+        <div class="category">
+          <p class="category__title">Minha lista</p>
+
+          <div class="wrapper">
+            <section id="section1">
+              <a href="#section3" class="arrow__btn"></a>
+
+              <div class="item -animation">
+                <img src="img/poster_01.png" alt="BoJack Horseman" />
+              </div>
+
+              <div class="item -animation">
+                <img src="img/poster_02.png" alt="BoJack Horseman" />
+              </div>
+
+              <div class="item -animation">
+                <img src="img/poster_03.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_04.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_05.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section2" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section2">
+              <a href="#section1" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="img/poster_06.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_07.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_08.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_09.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_10.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section3" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section3">
+              <a href="#section2" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="img/poster_11.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_12.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_13.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_14.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_15.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section1" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+          </div>
+        </div>
+
+        <div class="category">
+          <p class="category__title">Séries</p>
+
+          <div class="wrapper">
+            <section id="section4">
+              <a href="#section6" class="arrow__btn"></a>
+
+              <div class="item -animation -animation">
+                <img src="img/poster_16.png" alt="BoJack Horseman" />
+              </div>
+
+              <div class="item -animation">
+                <img src="img/poster_17.png" alt="BoJack Horseman" />
+              </div>
+
+              <div class="item -animation">
+                <img src="img/poster_18.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_01-1.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_01-2.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section5" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section5">
+              <a href="#section1" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="img/poster_02.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_02-1.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_02-2.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_03.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_03-1.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section6" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section6">
+              <a href="#section5" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="img/poster_03-2.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_04.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_04-1.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_05.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_05-1.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section4" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+          </div>
+        </div>
+
+        <div class="category">
+          <p class="category__title">Assistir novamente</p>
+
+          <div class="wrapper">
+            <section id="section7">
+              <a href="#section9" class="arrow__btn"></a>
+
+              <div class="item -animation -animation">
+                <img src="img/poster_05-2.png" alt="BoJack Horseman" />
+              </div>
+
+              <div class="item -animation">
+                <img src="img/poster_06.png" alt="BoJack Horseman" />
+              </div>
+
+              <div class="item -animation">
+                <img src="img/poster_06-1.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_06-2.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_07.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section8" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section8">
+              <a href="#section7" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="img/poster_07-1.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_08.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_15.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_09.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_10.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section9" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section9">
+              <a href="#section8" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="img/poster_11.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_12.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_13.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_14.png" alt="BoJack Horseman" />
+              </div>
+              <div class="item -animation">
+                <img src="img/poster_15.png" alt="BoJack Horseman" />
+              </div>
+              <a href="#section7" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+          </div>
+        </div>
+
+      </main>
+
+      <footer>
+        <div class="social-links">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <div class="link-content">
+          <div class="link-content__info">
+            <ul>
+              <li>Idioma e legendas</li>
+              <li>Imprensa</li>
+              <li>Privacidade</li>
+              <li>Entre em contato</li>
+            </ul>
+            <ul>
+              <li>Audiodescrição</li>
+              <li>Relações com investidores</li>
+              <li>Avisos legais</li>
+            </ul>
+            <ul>
+              <li>Centro de ajuda</li>
+              <li>Carreiras</li>
+              <li>Preferência de cookies</li>
+            </ul>
+            <ul>
+              <li>Cartão pré-pago</li>
+              <li>Termos de uso</li>
+              <li>informações corporativas</li>
+            </ul>
+          </div>
+          <div class="link-content__service">
+            <button class="link-content__service-code">Código do serviço</button>
+          </div>
+          <div class="link-content__copyright">
+            <span>© 1997-2022 Netflix, Inc.&nbsp;&nbsp;&lrm;</span>
+          </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
