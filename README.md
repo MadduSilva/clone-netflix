@@ -11,14 +11,6 @@
 
 
 <p align="center">
- <a href="#about">Sobre</a> •
- <a href="#layout">Layout</a> • 
- <a href="#technologies">Tecnologias</a> •  
- <a href="#author">Autor</a> •
-</p>
-
-
-<p align="center">
   <img src="netflix-img/Clone Netflix.jpg" alt="Logo" height="100%" width="100%">
 </p>
 <h4 align="center">
