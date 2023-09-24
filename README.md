@@ -93,6 +93,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br />
 
-Feito com ❤️ por Maddu 👋🏽 [Entre em contato!](https://www.linkedin.com/in/maddusilvadev/)
+*Made with love ♡ by Maddu* 👋🏽 [Entre em contato!](https://www.linkedin.com/in/maddusilvadev/)
 
 
