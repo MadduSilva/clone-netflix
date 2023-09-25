@@ -66,6 +66,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Protótipo: **Figma** → **[Protótipo Clone Netflix](https://empresas.alura.com.br/e3t/Ctc/I8+113/d2z6gD04/VVXdS15m02p6W27rd4L1BFyhjW3Dl4Sm53nBkmN3S9PHq3lYMRW7Y8-PT6lZ3mwW7_WNs_3t5KY2W3rSqF02S-Qy6V7jQm77St89qN5Csyz6Pv0TqW5TfdLb8wPqxFN8B3nZ_kXcSgW8VnJ3y943wJ7N7QQvFXZRKLGW5FT7JJ1ww6n6W4j7-Yc65fsQvW1bpZ286jtRnwW6vsD1R6gCV14W3DslqM2k3KGhW1QQf579ksMxqW6y1yNF2nNPr-N2l6VWwjl0vDW2xVCkr7NlhY1W1chcpC8Zc9VXW6YnKJN2_zjHDW5WCFzr8RFvbVVB4-J26lHzcTW5gZDhn8bn7BjW4vm28d3GLbP8W8RKjnJ66gmcBW6J18qr8jX5dJW2CJJsH4GVMjjf8q4DnH04)**
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Hospedagem: **[GitHub Pages](https://pages.github.com/)**
 - Fontes: **font-family: inherit;** **font-family: Arial, Helvetica, sans-serif;**
 
 
